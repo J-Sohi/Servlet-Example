@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<Manager pathname="" />
+	
+	<Resource name="jdbc/testdatasource" auth="Container" type="javax.sql.DataSource"
+	maxActive="100" maxIdle="30" maxWait="10000"
+	username="trainee1" password="!QAZSE4"
+	driverClassName="oracle.jdbc.driver.OracleDriver"
+	ur="jdbc:oracle:thin:@Localhost:1521:xe" />
+</Context>
